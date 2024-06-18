@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/home/aris/chipyard_pkg/miniforge3
+exec_prefix=/home/aris/chipyard_pkg/miniforge3
+libdir=/home/aris/chipyard_pkg/miniforge3/lib
+includedir=/home/aris/chipyard_pkg/miniforge3/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.6
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lrt  -lpthread

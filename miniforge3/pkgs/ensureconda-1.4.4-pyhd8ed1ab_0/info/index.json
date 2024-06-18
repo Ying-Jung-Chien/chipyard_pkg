@@ -1,0 +1,20 @@
+{
+  "arch": null,
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "depends": [
+    "appdirs",
+    "click >=5.1",
+    "filelock",
+    "packaging",
+    "python >=3.7",
+    "requests >=2"
+  ],
+  "license": "MIT",
+  "name": "ensureconda",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1707070606388,
+  "version": "1.4.4"
+}

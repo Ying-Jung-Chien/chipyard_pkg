@@ -1,0 +1,108 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "<unknown>",
+  "constrains": [],
+  "depends": [
+    "click",
+    "python >=2.7"
+  ],
+  "extracted_package_dir": "/home/aris/chipyard_pkg/miniforge3/pkgs/click-default-group-1.2.4-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/click_default_group-1.2.4.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/click_default_group-1.2.4.dist-info/LICENSE",
+    "lib/python3.10/site-packages/click_default_group-1.2.4.dist-info/METADATA",
+    "lib/python3.10/site-packages/click_default_group-1.2.4.dist-info/RECORD",
+    "lib/python3.10/site-packages/click_default_group-1.2.4.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/click_default_group-1.2.4.dist-info/WHEEL",
+    "lib/python3.10/site-packages/click_default_group-1.2.4.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/click_default_group.py",
+    "lib/python3.10/site-packages/__pycache__/click_default_group.cpython-310.pyc"
+  ],
+  "fn": "click-default-group-1.2.4-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/aris/chipyard_pkg/miniforge3/pkgs/click-default-group-1.2.4-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "7c2b6931f9b3548ed78478332095c3e9",
+  "name": "click-default-group",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/aris/chipyard_pkg/miniforge3/pkgs/click-default-group-1.2.4-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/click_default_group-1.2.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/click_default_group-1.2.4.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "ec684181160e02c9e25c09dbfb32cc8278bb6bb3e84d7d9570a059ca55e4c118",
+        "sha256_in_prefix": "ec684181160e02c9e25c09dbfb32cc8278bb6bb3e84d7d9570a059ca55e4c118",
+        "size_in_bytes": 1495
+      },
+      {
+        "_path": "site-packages/click_default_group-1.2.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "10070b72d0b420a52c6de66f8983a4d49a08594a4ad6de68224f6d02f71e8f6c",
+        "sha256_in_prefix": "10070b72d0b420a52c6de66f8983a4d49a08594a4ad6de68224f6d02f71e8f6c",
+        "size_in_bytes": 2754
+      },
+      {
+        "_path": "site-packages/click_default_group-1.2.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "dc18c762ec8aeddbf71efa7e02e43494522430949fad6da85b12133f9fbb6b9a",
+        "sha256_in_prefix": "dc18c762ec8aeddbf71efa7e02e43494522430949fad6da85b12133f9fbb6b9a",
+        "size_in_bytes": 785
+      },
+      {
+        "_path": "site-packages/click_default_group-1.2.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/click_default_group-1.2.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "4a0bbae2100c6ba83915dcc7c57bfd5ddb1ef72c6918631e6a056d3cc5a92506",
+        "sha256_in_prefix": "4a0bbae2100c6ba83915dcc7c57bfd5ddb1ef72c6918631e6a056d3cc5a92506",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "site-packages/click_default_group-1.2.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "9333733d0f8f75ad1ea75b2f2189c8e9897c0bbe48e2df3a4f678683bea8b584",
+        "sha256_in_prefix": "9333733d0f8f75ad1ea75b2f2189c8e9897c0bbe48e2df3a4f678683bea8b584",
+        "size_in_bytes": 115
+      },
+      {
+        "_path": "site-packages/click_default_group.py",
+        "path_type": "hardlink",
+        "sha256": "ba904089bee5665af516d5be3021e1767effdae08dc75dd197470267d0b2a11d",
+        "sha256_in_prefix": "ba904089bee5665af516d5be3021e1767effdae08dc75dd197470267d0b2a11d",
+        "size_in_bytes": 3902
+      },
+      {
+        "_path": "lib/python3.10/site-packages/__pycache__/click_default_group.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "click-default-group[url=file:///home/aris/chipyard_pkg/miniforge3/pkgs/click-default-group-1.2.4-pyhd8ed1ab_0.conda]",
+  "sha256": "b36e35d735ddd29d7c592eb3de4b3979e13a9f76f1b4bc939f2cb4402758d6d0",
+  "size": 10040,
+  "subdir": "noarch",
+  "timestamp": 1691239429623,
+  "track_features": "",
+  "url": "file:///home/aris/chipyard_pkg/miniforge3/pkgs/click-default-group-1.2.4-pyhd8ed1ab_0.conda",
+  "version": "1.2.4"
+}

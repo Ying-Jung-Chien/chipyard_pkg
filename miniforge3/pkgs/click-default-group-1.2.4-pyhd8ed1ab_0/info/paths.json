@@ -1,0 +1,53 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/click_default_group-1.2.4.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/click_default_group-1.2.4.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "ec684181160e02c9e25c09dbfb32cc8278bb6bb3e84d7d9570a059ca55e4c118",
+      "size_in_bytes": 1495
+    },
+    {
+      "_path": "site-packages/click_default_group-1.2.4.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "10070b72d0b420a52c6de66f8983a4d49a08594a4ad6de68224f6d02f71e8f6c",
+      "size_in_bytes": 2754
+    },
+    {
+      "_path": "site-packages/click_default_group-1.2.4.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "dc18c762ec8aeddbf71efa7e02e43494522430949fad6da85b12133f9fbb6b9a",
+      "size_in_bytes": 785
+    },
+    {
+      "_path": "site-packages/click_default_group-1.2.4.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/click_default_group-1.2.4.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "4a0bbae2100c6ba83915dcc7c57bfd5ddb1ef72c6918631e6a056d3cc5a92506",
+      "size_in_bytes": 99
+    },
+    {
+      "_path": "site-packages/click_default_group-1.2.4.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "9333733d0f8f75ad1ea75b2f2189c8e9897c0bbe48e2df3a4f678683bea8b584",
+      "size_in_bytes": 115
+    },
+    {
+      "_path": "site-packages/click_default_group.py",
+      "path_type": "hardlink",
+      "sha256": "ba904089bee5665af516d5be3021e1767effdae08dc75dd197470267d0b2a11d",
+      "size_in_bytes": 3902
+    }
+  ],
+  "paths_version": 1
+}

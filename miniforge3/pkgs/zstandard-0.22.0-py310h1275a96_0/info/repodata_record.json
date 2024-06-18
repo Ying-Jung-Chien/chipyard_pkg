@@ -1,0 +1,26 @@
+{
+    "arch": "x86_64",
+    "build": "py310h1275a96_0",
+    "build_number": 0,
+    "channel": "conda-forge",
+    "depends": [
+        "cffi >=1.11",
+        "libgcc-ng >=12",
+        "python >=3.10,<3.11.0a0",
+        "python_abi 3.10.* *_cp310",
+        "zstd >=1.5.5,<1.5.6.0a0",
+        "zstd >=1.5.5,<1.6.0a0"
+    ],
+    "fn": "zstandard-0.22.0-py310h1275a96_0.conda",
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "md5": "54698ba13cd3494547b289cd86a2176a",
+    "name": "zstandard",
+    "platform": "linux",
+    "sha256": "1c1b91e5c5246b13ca25728ea6200dfd230d8ce8ca6910cd0b70fc5e43065a04",
+    "size": 404042,
+    "subdir": "linux-64",
+    "timestamp": 1698830276123,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/zstandard-0.22.0-py310h1275a96_0.conda",
+    "version": "0.22.0"
+}

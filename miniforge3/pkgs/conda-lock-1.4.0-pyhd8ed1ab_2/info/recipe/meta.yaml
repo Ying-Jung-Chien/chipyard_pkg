@@ -1,0 +1,163 @@
+# This file created by conda-build 3.23.3
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Mon Feb 20 20:39:14 2023
+# ------------------------------------------------
+
+package:
+  name: conda-lock
+  version: 1.4.0
+source:
+  sha256: 55c115a852e63395db8a6a90cf2892aab0543959f2d0bafb83158b6863831b8a
+  url: https://pypi.io/packages/source/c/conda-lock/conda_lock-1.4.0.tar.gz
+build:
+  entry_points:
+    - conda-lock = conda_lock:main
+  noarch: python
+  number: '2'
+  script: /home/conda/feedstock_root/build_artifacts/conda-lock_1676925627812/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_/bin/python
+    -m pip install . -vv
+  string: pyhd8ed1ab_2
+requirements:
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 2_gnu
+    - anyio 3.6.2 pyhd8ed1ab_0
+    - bzip2 1.0.8 h7f98852_4
+    - ca-certificates 2022.12.7 ha878542_0
+    - certifi 2022.12.7 pyhd8ed1ab_0
+    - cffi 1.15.1 py311h409f033_3
+    - click 8.1.3 unix_pyhd8ed1ab_2
+    - cryptography 39.0.1 py311h9b4c7bb_0
+    - dbus 1.13.6 h5008d03_3
+    - distlib 0.3.6 pyhd8ed1ab_0
+    - editables 0.3 pyhd8ed1ab_0
+    - expat 2.5.0 h27087fc_0
+    - filelock 3.9.0 pyhd8ed1ab_0
+    - gettext 0.21.1 h27087fc_0
+    - h11 0.14.0 pyhd8ed1ab_0
+    - h2 4.1.0 pyhd8ed1ab_0
+    - hatch 1.6.3 pyhd8ed1ab_0
+    - hatch-requirements-txt 0.3.0 pyhd8ed1ab_0
+    - hatch-vcs 0.3.0 pyhd8ed1ab_0
+    - hatchling 1.13.0 pyhd8ed1ab_0
+    - hpack 4.0.0 pyh9f0ad1d_0
+    - httpcore 0.16.3 pyhd8ed1ab_0
+    - httpx 0.23.3 pyhd8ed1ab_0
+    - hyperframe 6.0.1 pyhd8ed1ab_0
+    - hyperlink 21.0.0 pyhd3deb0d_0
+    - idna 3.4 pyhd8ed1ab_0
+    - importlib-metadata 6.0.0 pyha770c72_0
+    - importlib_metadata 6.0.0 hd8ed1ab_0
+    - jaraco.classes 3.2.3 pyhd8ed1ab_0
+    - jeepney 0.8.0 pyhd8ed1ab_0
+    - keyring 23.13.1 py311h38be061_0
+    - ld_impl_linux-64 2.40 h41732ed_0
+    - libffi 3.4.2 h7f98852_5
+    - libgcc-ng 12.2.0 h65d4601_19
+    - libglib 2.74.1 h606061b_1
+    - libgomp 12.2.0 h65d4601_19
+    - libiconv 1.17 h166bdaf_0
+    - libnsl 2.0.0 h7f98852_0
+    - libsqlite 3.40.0 h753d276_0
+    - libstdcxx-ng 12.2.0 h46fd767_19
+    - libuuid 2.32.1 h7f98852_1000
+    - libzlib 1.2.13 h166bdaf_4
+    - markdown-it-py 2.1.0 pyhd8ed1ab_0
+    - mdurl 0.1.0 pyhd8ed1ab_0
+    - more-itertools 9.0.0 pyhd8ed1ab_0
+    - ncurses 6.3 h27087fc_1
+    - openssl 3.0.8 h0b41bf4_0
+    - packaging 23.0 pyhd8ed1ab_0
+    - pathspec 0.11.0 pyhd8ed1ab_0
+    - pcre2 10.40 hc3806b6_0
+    - pexpect 4.8.0 pyh1a96a4e_2
+    - pip 23.0.1 pyhd8ed1ab_0
+    - platformdirs 3.0.0 pyhd8ed1ab_0
+    - pluggy 1.0.0 pyhd8ed1ab_5
+    - ptyprocess 0.7.0 pyhd3deb0d_0
+    - pycparser 2.21 pyhd8ed1ab_0
+    - pygments 2.14.0 pyhd8ed1ab_0
+    - pyperclip 1.8.2 pyhd8ed1ab_2
+    - python 3.11.0 he550d4f_1_cpython
+    - python_abi 3.11 3_cp311
+    - readline 8.1.2 h0f457ee_0
+    - rfc3986 1.5.0 pyhd8ed1ab_0
+    - rich 13.3.1 pyhd8ed1ab_1
+    - secretstorage 3.3.3 py311h38be061_1
+    - setuptools 67.3.2 pyhd8ed1ab_0
+    - setuptools-scm 7.1.0 pyhd8ed1ab_0
+    - shellingham 1.5.1 pyhd8ed1ab_0
+    - sniffio 1.3.0 pyhd8ed1ab_0
+    - tk 8.6.12 h27826a3_0
+    - tomli 2.0.1 pyhd8ed1ab_0
+    - tomli-w 1.0.0 pyhd8ed1ab_0
+    - tomlkit 0.11.6 pyha770c72_0
+    - typing 3.10.0.0 pyhd8ed1ab_0
+    - typing-extensions 4.4.0 hd8ed1ab_0
+    - typing_extensions 4.4.0 pyha770c72_0
+    - tzdata 2022g h191b570_0
+    - userpath 1.7.0 pyhd8ed1ab_0
+    - virtualenv 20.19.0 pyhd8ed1ab_0
+    - wheel 0.38.4 pyhd8ed1ab_0
+    - xz 5.2.6 h166bdaf_0
+    - zipp 3.14.0 pyhd8ed1ab_0
+  run:
+    - cachecontrol-with-filecache >=0.12.9
+    - cachy >=0.3.0
+    - click >=8.0
+    - click-default-group
+    - clikit >=0.6.2
+    - crashtest >=0.3.0
+    - ensureconda >=1.3
+    - html5lib >=1.0
+    - importlib-metadata >=1.7.0
+    - jinja2
+    - keyring >=21.2.0
+    - packaging >=20.4
+    - pkginfo >=1.4
+    - pydantic >=1.8.1
+    - python >=3.6
+    - pyyaml >=5.1
+    - requests >=2.18
+    - ruamel.yaml
+    - tomli
+    - tomlkit >=0.7.0
+    - toolz >=0.12.0,<1.0.0
+    - typing_extensions
+    - virtualenv >=20.0.26
+test:
+  commands:
+    - pip check
+  imports:
+    - conda_lock
+  requires:
+    - pip
+about:
+  description: 'Conda lock is a lightweight library that can be used to generate fully
+
+    reproducible lock files for conda environments.
+
+    It does this by performing multiple solves for conda targeting a set of
+
+    platforms you desire lockfiles for.
+
+    This also has the added benefit of acting as an external presolve for conda
+
+    as the lockfiles it generates results in the conda solver not being invoked
+
+    when installing the packages from the generated lockfile.
+
+    '
+  doc_url: https://conda.github.io/conda-lock/
+  home: https://github.com/conda/conda-lock
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Lightweight lockfile for conda environments
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - bollwyvl
+    - mariusvniekerk
+    - ocefpaf

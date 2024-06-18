@@ -1,0 +1,25 @@
+{
+  "build": "unix_pyh707e725_0",
+  "build_number": 0,
+  "channel": "<unknown>",
+  "constrains": [],
+  "depends": [
+    "__unix",
+    "python >=3.8"
+  ],
+  "features": "",
+  "fn": "click-8.1.7-unix_pyh707e725_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "f3ad426304898027fc619827ff428eca",
+  "name": "click",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "f0016cbab6ac4138a429e28dbcb904a90305b34b3fe41a9b89d697c90401caec",
+  "size": 84437,
+  "subdir": "noarch",
+  "timestamp": 1692311973840,
+  "track_features": "",
+  "url": "file:///home/aris/chipyard_pkg/miniforge3/pkgs/click-8.1.7-unix_pyh707e725_0.conda",
+  "version": "8.1.7"
+}

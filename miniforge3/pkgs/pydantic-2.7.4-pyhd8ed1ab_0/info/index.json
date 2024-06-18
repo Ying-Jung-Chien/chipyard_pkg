@@ -1,0 +1,19 @@
+{
+  "arch": null,
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "depends": [
+    "annotated-types >=0.4.0",
+    "pydantic-core 2.18.4",
+    "python >=3.7",
+    "typing-extensions >=4.6.1"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "pydantic",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1718228801146,
+  "version": "2.7.4"
+}

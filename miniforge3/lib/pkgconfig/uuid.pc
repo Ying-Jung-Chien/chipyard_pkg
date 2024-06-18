@@ -1,0 +1,11 @@
+prefix=/home/aris/chipyard_pkg/miniforge3
+exec_prefix=/home/aris/chipyard_pkg/miniforge3
+libdir=/home/aris/chipyard_pkg/miniforge3/lib
+includedir=/home/aris/chipyard_pkg/miniforge3/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.38.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "unix_pyh707e725_0",
+  "build_number": 0,
+  "depends": [
+    "__unix",
+    "python >=3.8"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "click",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1692311973840,
+  "version": "8.1.7"
+}
