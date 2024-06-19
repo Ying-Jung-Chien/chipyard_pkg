@@ -1,8 +1,0 @@
-libdir=/home/aris/chipyard_pkg/miniforge3/lib
-includedir=/home/aris/chipyard_pkg/miniforge3/include
-
-Name: libsolv
-Description: Library for solving packages
-Version: 0.7.28
-Libs: -L${libdir} -lsolv
-Cflags: -I${includedir}

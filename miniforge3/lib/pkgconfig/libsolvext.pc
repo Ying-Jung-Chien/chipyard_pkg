@@ -1,9 +1,0 @@
-libdir=/home/aris/chipyard_pkg/miniforge3/lib
-includedir=/home/aris/chipyard_pkg/miniforge3/include
-
-Name: libsolvext
-Description: Library for reading repositories
-Version: 0.7.28
-Requires: libsolv
-Libs: -L${libdir} -lsolvext
-Cflags: -I${includedir}

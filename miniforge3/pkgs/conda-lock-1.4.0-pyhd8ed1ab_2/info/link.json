@@ -1,9 +1,0 @@
-{
-  "noarch": {
-    "entry_points": [
-      "conda-lock = conda_lock:main"
-    ],
-    "type": "python"
-  },
-  "package_metadata_version": 1
-}
