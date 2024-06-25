@@ -1,0 +1,87 @@
+Setting up official Chipyard release: 1.8.0
++ git_submodule_exclude _skip
++ for name in toolchains/*-tools/* toolchains/libgloss generators/sha3 generators/gemmini sims/firesim software/nvdla-workload software/coremark software/firemarshal software/spec2017 vlsi/hammer-cadence-plugins vlsi/hammer-synopsys-plugins vlsi/hammer-mentor-plugins fpga/fpga-shells
++ _skip toolchains/esp-tools/esp-tools-feedstock
++ git config --local submodule.toolchains/esp-tools/esp-tools-feedstock.update none
++ for name in toolchains/*-tools/* toolchains/libgloss generators/sha3 generators/gemmini sims/firesim software/nvdla-workload software/coremark software/firemarshal software/spec2017 vlsi/hammer-cadence-plugins vlsi/hammer-synopsys-plugins vlsi/hammer-mentor-plugins fpga/fpga-shells
++ _skip toolchains/esp-tools/riscv-isa-sim
++ git config --local submodule.toolchains/esp-tools/riscv-isa-sim.update none
++ for name in toolchains/*-tools/* toolchains/libgloss generators/sha3 generators/gemmini sims/firesim software/nvdla-workload software/coremark software/firemarshal software/spec2017 vlsi/hammer-cadence-plugins vlsi/hammer-synopsys-plugins vlsi/hammer-mentor-plugins fpga/fpga-shells
++ _skip toolchains/esp-tools/riscv-pk
++ git config --local submodule.toolchains/esp-tools/riscv-pk.update none
++ for name in toolchains/*-tools/* toolchains/libgloss generators/sha3 generators/gemmini sims/firesim software/nvdla-workload software/coremark software/firemarshal software/spec2017 vlsi/hammer-cadence-plugins vlsi/hammer-synopsys-plugins vlsi/hammer-mentor-plugins fpga/fpga-shells
++ _skip toolchains/esp-tools/riscv-tests
++ git config --local submodule.toolchains/esp-tools/riscv-tests.update none
++ for name in toolchains/*-tools/* toolchains/libgloss generators/sha3 generators/gemmini sims/firesim software/nvdla-workload software/coremark software/firemarshal software/spec2017 vlsi/hammer-cadence-plugins vlsi/hammer-synopsys-plugins vlsi/hammer-mentor-plugins fpga/fpga-shells
++ _skip toolchains/riscv-tools/riscv-isa-sim
++ git config --local submodule.toolchains/riscv-tools/riscv-isa-sim.update none
++ for name in toolchains/*-tools/* toolchains/libgloss generators/sha3 generators/gemmini sims/firesim software/nvdla-workload software/coremark software/firemarshal software/spec2017 vlsi/hammer-cadence-plugins vlsi/hammer-synopsys-plugins vlsi/hammer-mentor-plugins fpga/fpga-shells
++ _skip toolchains/riscv-tools/riscv-openocd
++ git config --local submodule.toolchains/riscv-tools/riscv-openocd.update none
++ for name in toolchains/*-tools/* toolchains/libgloss generators/sha3 generators/gemmini sims/firesim software/nvdla-workload software/coremark software/firemarshal software/spec2017 vlsi/hammer-cadence-plugins vlsi/hammer-synopsys-plugins vlsi/hammer-mentor-plugins fpga/fpga-shells
++ _skip toolchains/riscv-tools/riscv-pk
++ git config --local submodule.toolchains/riscv-tools/riscv-pk.update none
++ for name in toolchains/*-tools/* toolchains/libgloss generators/sha3 generators/gemmini sims/firesim software/nvdla-workload software/coremark software/firemarshal software/spec2017 vlsi/hammer-cadence-plugins vlsi/hammer-synopsys-plugins vlsi/hammer-mentor-plugins fpga/fpga-shells
++ _skip toolchains/riscv-tools/riscv-tests
++ git config --local submodule.toolchains/riscv-tools/riscv-tests.update none
++ for name in toolchains/*-tools/* toolchains/libgloss generators/sha3 generators/gemmini sims/firesim software/nvdla-workload software/coremark software/firemarshal software/spec2017 vlsi/hammer-cadence-plugins vlsi/hammer-synopsys-plugins vlsi/hammer-mentor-plugins fpga/fpga-shells
++ _skip toolchains/riscv-tools/riscv-tools-feedstock
++ git config --local submodule.toolchains/riscv-tools/riscv-tools-feedstock.update none
++ for name in toolchains/*-tools/* toolchains/libgloss generators/sha3 generators/gemmini sims/firesim software/nvdla-workload software/coremark software/firemarshal software/spec2017 vlsi/hammer-cadence-plugins vlsi/hammer-synopsys-plugins vlsi/hammer-mentor-plugins fpga/fpga-shells
++ _skip toolchains/libgloss
++ git config --local submodule.toolchains/libgloss.update none
++ for name in toolchains/*-tools/* toolchains/libgloss generators/sha3 generators/gemmini sims/firesim software/nvdla-workload software/coremark software/firemarshal software/spec2017 vlsi/hammer-cadence-plugins vlsi/hammer-synopsys-plugins vlsi/hammer-mentor-plugins fpga/fpga-shells
++ _skip generators/sha3
++ git config --local submodule.generators/sha3.update none
++ for name in toolchains/*-tools/* toolchains/libgloss generators/sha3 generators/gemmini sims/firesim software/nvdla-workload software/coremark software/firemarshal software/spec2017 vlsi/hammer-cadence-plugins vlsi/hammer-synopsys-plugins vlsi/hammer-mentor-plugins fpga/fpga-shells
++ _skip generators/gemmini
++ git config --local submodule.generators/gemmini.update none
++ for name in toolchains/*-tools/* toolchains/libgloss generators/sha3 generators/gemmini sims/firesim software/nvdla-workload software/coremark software/firemarshal software/spec2017 vlsi/hammer-cadence-plugins vlsi/hammer-synopsys-plugins vlsi/hammer-mentor-plugins fpga/fpga-shells
++ _skip sims/firesim
++ git config --local submodule.sims/firesim.update none
++ for name in toolchains/*-tools/* toolchains/libgloss generators/sha3 generators/gemmini sims/firesim software/nvdla-workload software/coremark software/firemarshal software/spec2017 vlsi/hammer-cadence-plugins vlsi/hammer-synopsys-plugins vlsi/hammer-mentor-plugins fpga/fpga-shells
++ _skip software/nvdla-workload
++ git config --local submodule.software/nvdla-workload.update none
++ for name in toolchains/*-tools/* toolchains/libgloss generators/sha3 generators/gemmini sims/firesim software/nvdla-workload software/coremark software/firemarshal software/spec2017 vlsi/hammer-cadence-plugins vlsi/hammer-synopsys-plugins vlsi/hammer-mentor-plugins fpga/fpga-shells
++ _skip software/coremark
++ git config --local submodule.software/coremark.update none
++ for name in toolchains/*-tools/* toolchains/libgloss generators/sha3 generators/gemmini sims/firesim software/nvdla-workload software/coremark software/firemarshal software/spec2017 vlsi/hammer-cadence-plugins vlsi/hammer-synopsys-plugins vlsi/hammer-mentor-plugins fpga/fpga-shells
++ _skip software/firemarshal
++ git config --local submodule.software/firemarshal.update none
++ for name in toolchains/*-tools/* toolchains/libgloss generators/sha3 generators/gemmini sims/firesim software/nvdla-workload software/coremark software/firemarshal software/spec2017 vlsi/hammer-cadence-plugins vlsi/hammer-synopsys-plugins vlsi/hammer-mentor-plugins fpga/fpga-shells
++ _skip software/spec2017
++ git config --local submodule.software/spec2017.update none
++ for name in toolchains/*-tools/* toolchains/libgloss generators/sha3 generators/gemmini sims/firesim software/nvdla-workload software/coremark software/firemarshal software/spec2017 vlsi/hammer-cadence-plugins vlsi/hammer-synopsys-plugins vlsi/hammer-mentor-plugins fpga/fpga-shells
++ _skip vlsi/hammer-cadence-plugins
++ git config --local submodule.vlsi/hammer-cadence-plugins.update none
++ for name in toolchains/*-tools/* toolchains/libgloss generators/sha3 generators/gemmini sims/firesim software/nvdla-workload software/coremark software/firemarshal software/spec2017 vlsi/hammer-cadence-plugins vlsi/hammer-synopsys-plugins vlsi/hammer-mentor-plugins fpga/fpga-shells
++ _skip vlsi/hammer-synopsys-plugins
++ git config --local submodule.vlsi/hammer-synopsys-plugins.update none
++ for name in toolchains/*-tools/* toolchains/libgloss generators/sha3 generators/gemmini sims/firesim software/nvdla-workload software/coremark software/firemarshal software/spec2017 vlsi/hammer-cadence-plugins vlsi/hammer-synopsys-plugins vlsi/hammer-mentor-plugins fpga/fpga-shells
++ _skip vlsi/hammer-mentor-plugins
++ git config --local submodule.vlsi/hammer-mentor-plugins.update none
++ for name in toolchains/*-tools/* toolchains/libgloss generators/sha3 generators/gemmini sims/firesim software/nvdla-workload software/coremark software/firemarshal software/spec2017 vlsi/hammer-cadence-plugins vlsi/hammer-synopsys-plugins vlsi/hammer-mentor-plugins fpga/fpga-shells
++ _skip fpga/fpga-shells
++ git config --local submodule.fpga/fpga-shells.update none
++ git submodule update --init --recursive
+Skipping submodule 'fpga/fpga-shells'
+Skipping submodule 'generators/gemmini'
+Skipping submodule 'generators/sha3'
+Skipping submodule 'sims/firesim'
+Skipping submodule 'software/coremark'
+Skipping submodule 'software/firemarshal'
+Skipping submodule 'software/nvdla-workload'
+Skipping submodule 'software/spec2017'
+Skipping submodule 'toolchains/esp-tools/esp-tools-feedstock'
+Skipping submodule 'toolchains/esp-tools/riscv-isa-sim'
+Skipping submodule 'toolchains/esp-tools/riscv-pk'
+Skipping submodule 'toolchains/esp-tools/riscv-tests'
+Skipping submodule 'toolchains/libgloss'
+Skipping submodule 'toolchains/riscv-tools/riscv-isa-sim'
+Skipping submodule 'toolchains/riscv-tools/riscv-openocd'
+Skipping submodule 'toolchains/riscv-tools/riscv-pk'
+Skipping submodule 'toolchains/riscv-tools/riscv-tests'
+Skipping submodule 'toolchains/riscv-tools/riscv-tools-feedstock'
+Skipping submodule 'vlsi/hammer-cadence-plugins'
+Skipping submodule 'vlsi/hammer-mentor-plugins'
+Skipping submodule 'vlsi/hammer-synopsys-plugins'
